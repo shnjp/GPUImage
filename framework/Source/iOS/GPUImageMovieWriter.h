@@ -29,6 +29,8 @@ extern NSString *const kGPUImageColorSwizzlingFragmentShaderString;
 
     CGSize videoSize;
     GPUImageRotationMode inputRotation;
+
+    CMTime startTime;
 }
 
 @property(readwrite, nonatomic) BOOL hasAudioTrack;

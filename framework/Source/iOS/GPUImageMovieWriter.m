@@ -28,7 +28,8 @@ NSString *const kGPUImageColorSwizzlingFragmentShaderString = SHADER_STRING
     GPUImageFramebuffer *firstInputFramebuffer;
     
     BOOL discont;
-    CMTime startTime, previousFrameTime, previousAudioTime;
+//    CMTime startTime, previousFrameTime, previousAudioTime;
+    CMTime previousFrameTime, previousAudioTime;
     CMTime offsetTime;
     
     dispatch_queue_t audioQueue, videoQueue;
